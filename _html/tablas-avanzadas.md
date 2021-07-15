@@ -207,7 +207,7 @@ En la tabla que hemos visto el código [HTML][ManualHTML]quedaría de la siguien
   </tr>
   <tr>
     <td>1.000€</td>
-    <td>700€/td>
+    <td>700€</td>
     <td>1.100€</td>
     <td>580€</td>
   </tr>
@@ -230,7 +230,7 @@ La estructura del [elemento col][col] es:
 <col span="numero-columnas" width="ancho-columna" />
 ~~~
 
-Es decir que también permite agrupar columnas mediante su atributo width y darles un ancho mediante el [atributo width][width].
+Es decir que también permite agrupar columnas mediante su atributo span y darles un ancho mediante el [atributo width][width].
 
 El anterior ejemplo utilizando el [elemento col][col] quedaría de la siguiente forma:
 
@@ -256,7 +256,7 @@ El anterior ejemplo utilizando el [elemento col][col] quedaría de la siguiente 
   </tr>
   <tr>
     <td>1.000€</td>
-    <td>700€/td>
+    <td>700€</td>
     <td>1.100€</td>
     <td>580€</td>
   </tr>
